@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    border-bottom: 3px solid white;
+}
+.logo, .copyright {
+    padding-left: 100px;
+}
+.navigation, .navigation2 {
+    padding-top: 20px;
+    padding-right: 100px;
+    bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.popular, .new, .categories, .ideas {
+    padding-right: 25px;
+}
+.popular:hover, .new:hover, .categories:hover, .ideas:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+img.start {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    object-fit:cover;
+}
+.week {
+    position:absolute;
+    right: 500px;
+    bottom: 120px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.everyday, .whereToEat {
+    padding: 25px 260px 25px 260px;
+}
+.everyday p, .whereToEat p{
+    font-size: 23px;
+}
+
+.threeMeals, .destinationMeals {
+    display:flex;
+    justify-content: center; 
+}
+
+.bmim, .vli, .cwwd, .burger, .pizza, .pasta {
+    padding: 20px 35px 0px 35px;
+    box-shadow: none;
+}
+.bmim:hover, .vli:hover, .cwwd:hover, .fsp:hover, 
+.muffin:hover, .epp:hover, .tct:hover, .burger:hover,
+.pizza:hover, .pasta:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.threeMeals img, .destinationMeals img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.bmim3, .cwwd3 {
+    padding-left: 10px;
+}
+.burger3{
+    padding-left: 25px;
+}
+.vli3, .pizza3 {
+    padding-left: 40px;
+}
+.pasta3 {
+    padding-left: 75px;
+}
+
+.healthy {
+    padding: 25px 260px 15px 260px;
+    background-color: rgb(226, 220, 255);
+}
+.healthy p {
+    font-size: 23px;
+}
+
+.fourMeals {
+    display:flex;
+    justify-content: center; 
+    padding-bottom: -30px;
+}
+.fourMeals img {
+    height: 158px;
+    width: 158x;
+    object-fit: cover;
+    position:relative;
+}
+.fsp, .muffin, .epp, .tct {
+    padding: 20px 20px 0px 20px;
+}
+
+.fsp3, .epp3, .muffin3, .tct3 {
+    padding: 10px 0px 10px 20px;
+    background-color: white;
+    position:relative;
+    bottom: 30px;
+}
+
+.footer {
+    align-items: baseline;
+    border:none;
+    padding-left:170px;
+    padding-bottom: 17px;
+}
+.navigation2 {
+    padding-right: 210px;
+}
+.site, .privacy, .about, .advertise, .help {
+    padding-right: 10px;
+}
+
+.site:hover, .privacy:hover, .about:hover, .advertise:hover, .help:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* ryParis-Bengal-Burger HTML Page */
+
+
+img.bengal {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.time {
+    padding: 10px 260px 10px 260px;
+    background-color: rgb(226, 220, 255);
+}
+.time2 {
+    font-size: 25px;
+}
+
+.time3 {
+    display: flex;
+}
+
+.level, .prep, .yeild {
+    padding-right: 150px;
+}
+.level span, .prep span, .yeild span{
+    font-size: 22px;
+}
+.bengalRating {
+    display: flex;
+    justify-content: center;
+}
+.bengalHeading {
+    padding-top: 35px;
+}
+.bengalHeading h1 {
+    height: 5%;
+    font-weight: bolder;
+}
+.stars {
+    display:flex;
+    align-items: baseline;
+    justify-content: center;
+    color: rgb(172, 27, 27);
+}
+.stars p {
+    padding-left: 10px;
+    color: black;
+}
+.saveRecipe {
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.saveRecipe h3 {
+    background-color: rgb(255, 112, 112);
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+}
+.printerIcon {
+    padding-left: 15px;
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+.review {
+    display:flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 0px 260px 0px 260px;
+}
+.review p {
+    background-color: rgb(226, 220, 255);
+    color: rgb(87, 86, 86);
+    padding: 20px 110px 20px 110px;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+.ingredientsDirections {
+    display: flex;
+    padding: 20px 260px 20px 260px;
+}
+.ingredients {
+    width:50%;
+}
+.ingredients ul {
+    width:250%;
+}
+.spiceMix h3 {
+    padding-left: 40px;
+}
+.video {
+    padding-top: 100px;
+}
+
+.directions {
+    padding-left: 30px;
+}
+.directions li {
+    padding-bottom: 15px;
+}
+
+
+
